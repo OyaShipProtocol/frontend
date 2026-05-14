@@ -303,7 +303,7 @@ const Home: NextPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5">
               {TESTIMONIALS.map(t => (
                 <div key={t.name} className="rounded-xl border border-zinc-200 bg-white p-5 sm:p-6">
-                  <p className="text-sm text-zinc-600 leading-relaxed mb-5">"{t.text}"</p>
+                  <p className="text-sm text-zinc-600 leading-relaxed mb-5">&ldquo;{t.text}&rdquo;</p>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
                       <div className="w-9 h-9 rounded-full bg-emerald-100 border border-emerald-200 flex items-center justify-center text-sm font-bold text-emerald-700 shrink-0">
