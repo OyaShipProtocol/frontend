@@ -65,7 +65,7 @@ const TESTIMONIALS = [
   {
     name: 'Amara T.',
     role: 'Importer · Lagos, Nigeria',
-    text: 'OyaShip removed all the anxiety from cross-border importing. The escrow held my funds safely until the goods arrived. I will never go back to bank transfers.',
+    text: 'SendXpress removed all the anxiety from cross-border importing. The escrow held my funds safely until the goods arrived. I will never go back to bank transfers.',
     trades: '47 completed trades',
   },
   {
@@ -120,8 +120,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>OyaShip — Cross-Border Trade on Stellar</title>
-        <meta name="description" content="OyaShip connects importers with verified global suppliers. Negotiate in real-time and pay safely through Soroban smart contract escrow on Stellar." />
+        <title>SendXpress — Cross-Border Trade on Stellar</title>
+        <meta name="description" content="SendXpress connects importers with verified global suppliers. Negotiate in real-time and pay safely through Soroban smart contract escrow on Stellar." />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -146,7 +146,7 @@ const Home: NextPage = () => {
               </h1>
 
               <p className="text-base sm:text-lg text-zinc-500 leading-relaxed mb-8 max-w-lg mx-auto lg:mx-0">
-                OyaShip connects importers with verified suppliers worldwide. Negotiate in real-time,
+                SendXpress connects importers with verified suppliers worldwide. Negotiate in real-time,
                 then pay through Soroban escrow — funds released only on delivery.
               </p>
 
@@ -352,7 +352,7 @@ const Home: NextPage = () => {
                 className="px-8 py-3 text-sm font-semibold text-white bg-emerald-600 hover:bg-emerald-700 rounded-lg transition-colors min-h-[44px] flex items-center justify-center">
                 Browse Suppliers →
               </Link>
-              <a href="https://github.com/OyaShip/frontend" target="_blank" rel="noopener noreferrer"
+              <a href="https://github.com/SendXpress/frontend" target="_blank" rel="noopener noreferrer"
                 className="px-8 py-3 text-sm font-semibold text-zinc-600 bg-white hover:bg-zinc-50 border border-zinc-200 rounded-lg transition-colors min-h-[44px] flex items-center justify-center">
                 View on GitHub
               </a>
@@ -366,9 +366,9 @@ const Home: NextPage = () => {
             <div className="col-span-2 lg:col-span-1">
               <div className="flex items-center gap-2 mb-3">
                 <div className="w-6 h-6 rounded-md bg-emerald-600 flex items-center justify-center">
-                  <span className="text-[11px] font-black text-white">O</span>
+                  <span className="text-[11px] font-black text-white">S</span>
                 </div>
-                <span className="text-sm font-bold text-zinc-900">OyaShip</span>
+                <span className="text-sm font-bold text-zinc-900">SendXpress</span>
               </div>
               <p className="text-xs text-zinc-400 leading-relaxed max-w-[200px]">
                 Cross-border social commerce secured by Stellar &amp; Soroban smart contracts.
@@ -377,8 +377,8 @@ const Home: NextPage = () => {
 
             {[
               { t: 'Platform',   ls:[['Marketplace','/marketplace'],['Dashboard','/dashboard'],['Messages','/messages']] },
-              { t: 'Developers', ls:[['GitHub','https://github.com/OyaShip'],['Smart Contracts','https://github.com/OyaShip/smartcontract'],['Backend API','https://github.com/OyaShip/backend']] },
-              { t: 'Company',    ls:[['About','/about'],['For Suppliers','/sell'],['Issues','https://github.com/OyaShip/frontend/issues']] },
+              { t: 'Developers', ls:[['GitHub','https://github.com/SendXpress'],['Smart Contracts','https://github.com/SendXpress/smartcontract'],['Backend API','https://github.com/SendXpress/backend']] },
+              { t: 'Company',    ls:[['About','/about'],['For Suppliers','/sell'],['Issues','https://github.com/SendXpress/frontend/issues']] },
             ].map(col => (
               <div key={col.t}>
                 <p className="text-[11px] font-semibold text-zinc-400 uppercase tracking-widest mb-3">{col.t}</p>
@@ -401,7 +401,7 @@ const Home: NextPage = () => {
           </div>
 
           <div className="border-t border-zinc-100 pt-6 flex flex-col sm:flex-row justify-between items-center gap-2 text-center">
-            <p className="text-xs text-zinc-400">© 2026 OyaShip. MIT License.</p>
+            <p className="text-xs text-zinc-400">© 2026 SendXpress. MIT License.</p>
             <p className="text-xs text-zinc-400">Powered by Stellar &amp; Soroban</p>
           </div>
         </footer>

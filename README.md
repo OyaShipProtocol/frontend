@@ -1,13 +1,13 @@
-# 🌍 OyaShip Frontend
+# 🌍 SendXpress Frontend
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Next.js](https://img.shields.io/badge/Next.js-13-black)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38bdf8)](https://tailwindcss.com/)
 
-> **The social commerce storefront for OyaShip — discover global suppliers and pay with Stellar escrow.**
+> **The social commerce storefront for SendXpress — discover global suppliers and pay with Stellar escrow.**
 
-OyaShip Frontend is the Next.js web application connecting importers with verified global suppliers. Browse the social product feed, negotiate in real-time chat, and pay safely through Soroban smart contract escrow on Stellar.
+SendXpress Frontend is the Next.js web application connecting importers with verified global suppliers. Browse the social product feed, negotiate in real-time chat, and pay safely through Soroban smart contract escrow on Stellar.
 
 ---
 
@@ -54,12 +54,12 @@ npm run dev
 ```
 
 **Related repos:**
-- [OyaShip/backend](https://github.com/OyaShip/backend) — REST API
-- [OyaShip/smartcontract](https://github.com/OyaShip/smartcontract) — Soroban escrow
-- [OyaShip/mobile](https://github.com/OyaShip/mobile) — iOS app
+- [SendXpress/backend](https://github.com/SendXpress/backend) — REST API
+- [SendXpress/smartcontract](https://github.com/SendXpress/smartcontract) — Soroban escrow
+- [SendXpress/mobile](https://github.com/SendXpress/mobile) — iOS app
 
 ---
 
 ## 📜 License
 
-MIT License. Copyright (c) 2026 OyaShip.
+MIT License. Copyright (c) 2026 SendXpress.

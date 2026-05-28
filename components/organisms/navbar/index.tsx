@@ -38,9 +38,9 @@ export function Navbar() {
           {/* Brand */}
           <Link href="/" onClick={close} className="flex items-center gap-2 shrink-0">
             <div className="w-6 h-6 rounded-md bg-emerald-600 flex items-center justify-center">
-              <span className="text-[11px] font-black text-white">O</span>
+              <span className="text-[11px] font-black text-white">S</span>
             </div>
-            <span className="text-sm font-bold text-zinc-900 tracking-tight">OyaShip</span>
+            <span className="text-sm font-bold text-zinc-900 tracking-tight">SendXpress</span>
           </Link>
 
           {/* Desktop links */}

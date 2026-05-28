@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 
 export type Theme = 'light' | 'dark';
 
-const STORAGE_KEY = 'oyaship-theme';
+const STORAGE_KEY = 'sendxpress-theme';
 
 function getSystemTheme(): Theme {
   if (typeof window === 'undefined') return 'light';
